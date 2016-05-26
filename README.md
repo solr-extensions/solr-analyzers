@@ -1,6 +1,8 @@
 A repository for all open source tokenizers and filters from shopping24.
 ==================
 
+![travis ci build status](https://travis-ci.org/shopping24/solr-analyzers.png)
+
 ## AnalyzingSentenceTokenizer
 
 This analyzer will filter sentences from text in a efficient way that contains a lot (defined by a threshold) of stopwords. Could be used as a filter for SEO-text from product descriptions.
