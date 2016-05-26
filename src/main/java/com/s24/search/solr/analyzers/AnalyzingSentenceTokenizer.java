@@ -20,6 +20,8 @@ import com.google.common.io.CharStreams;
  * Tokenizer which splits the input into sentences and emits only those sentences that do not contain too many
  * stopwords. Sentences that contain many commas are split into their comma-separated parts and analyzed per part. If
  * the input contains only a single sentence, it is always emitted.
+ * 
+ * @author Shopping24 GmbH
  */
 public class AnalyzingSentenceTokenizer extends Tokenizer {
 

@@ -2,14 +2,19 @@ package com.s24.search.solr.analyzers;
 
 import org.apache.lucene.util.Attribute;
 
+/**
+ * @see StemmingBufferAttributeImpl
+ * 
+ * @author Shopping24 GmbH
+ */
 public interface StemmingBufferAttribute extends Attribute {
-   
+
    public void setOriginalToken(char[] buffer, int length);
 
    public char[] getOriginalToken();
 
    public int getOriginalTokenLength();
-   
+
    public void setStemmedToken(char[] buffer, int length);
 
    public char[] getStemmedToken();
@@ -19,7 +24,7 @@ public interface StemmingBufferAttribute extends Attribute {
    boolean isStemmedTokenHasBeenEmitted();
 
    void setStemmedTokenHasBeenEmitted(boolean stemmedTokenHasBeenEmitted);
-   
+
    void clear();
 
 }

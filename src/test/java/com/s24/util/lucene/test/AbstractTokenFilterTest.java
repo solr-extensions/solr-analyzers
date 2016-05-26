@@ -20,6 +20,8 @@ import com.s24.search.solr.analyzers.StemmingBufferAttribute;
 
 /**
  * Base class for token filter tests.
+ * 
+ * @author Shopping24 GmbH
  */
 public class AbstractTokenFilterTest {
 

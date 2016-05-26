@@ -20,6 +20,9 @@ import org.hamcrest.StringDescription;
 import org.junit.Before;
 import org.junit.Test;
 
+/**
+ * @author Shopping24 GmbH
+ */
 @SuppressWarnings("unchecked")
 public class AbstractTokenFilterTestTest {
 

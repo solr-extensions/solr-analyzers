@@ -7,6 +7,8 @@ import org.apache.lucene.util.AttributeReflector;
 
 /**
  * Attribute that stores the original and the stemmed token.
+ * 
+ * @author Shopping24 GmbH
  */
 public class StemmingBufferAttributeImpl extends AttributeImpl implements StemmingBufferAttribute {
 

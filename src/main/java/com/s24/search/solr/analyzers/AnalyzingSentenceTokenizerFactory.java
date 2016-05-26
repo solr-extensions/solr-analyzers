@@ -16,6 +16,7 @@ import com.google.common.annotations.VisibleForTesting;
 
 /**
  * @see AnalyzingSentenceTokenizer
+ * 
  * @author Shopping24 GmbH
  */
 public class AnalyzingSentenceTokenizerFactory extends TokenizerFactory implements ResourceLoaderAware {
