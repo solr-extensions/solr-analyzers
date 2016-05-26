@@ -49,6 +49,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.target>1.8</maven.compiler.target>
         <!-- Due to solr guava currently has to stick at 14.x -->
         <guava.version>14.0.1</guava.version>
         <junit.version>4.12</junit.version>
