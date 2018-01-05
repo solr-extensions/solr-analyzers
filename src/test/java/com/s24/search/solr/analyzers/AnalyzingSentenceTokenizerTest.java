@@ -5,9 +5,9 @@ import java.io.Reader;
 import java.io.StringReader;
 import java.util.Arrays;
 
+import org.apache.lucene.analysis.CharArraySet;
 import org.apache.lucene.analysis.TokenStream;
 import org.apache.lucene.analysis.Tokenizer;
-import org.apache.lucene.analysis.util.CharArraySet;
 import org.junit.Before;
 import org.junit.Test;
 
