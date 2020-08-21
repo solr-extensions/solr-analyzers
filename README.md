@@ -1,7 +1,10 @@
-A repository for all open source tokenizers and filters from shopping24.
+A repository for all open source tokenizers and filters
 ==================
 
-![travis ci build status](https://travis-ci.org/shopping24/solr-analyzers.png)
+[![travis ci build status](https://travis-ci.org/solr-cool/solr-analyzers.png)](https://travis-ci.org/github/solr-cool/solr-analyzers)
+[![Maven Central](https://img.shields.io/maven-central/v/cool.solr/solr-analyzers)](https://search.maven.org/artifact/cool.solr/solr-analyzers/)
+
+> ♻️ this is the official and maintained fork of the original [@shopping24](https://github.com/shopping24) repository maintained by [solr.cool](https://solr.cool).
 
 ## AnalyzingSentenceTokenizer
 
