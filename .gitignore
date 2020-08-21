@@ -20,3 +20,5 @@ hs_err_pid*
 target
 work
 **/src/main/tomcat/*
+.vscode
+.factorypath
