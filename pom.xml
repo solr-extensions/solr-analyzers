@@ -4,7 +4,7 @@
     <groupId>cool.solr</groupId>
     <artifactId>solr-analyzers</artifactId>
     <name>solr-analyzers</name>
-    <version>1.0.4-SNAPSHOT</version>
+    <version>1.1.0</version>
     <description>
       A repository for all open sourced tokenizers and filters from shopping24.</description>
     <url>https://github.com/shopping24/solr-analyzers</url>

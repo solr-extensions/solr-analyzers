@@ -37,25 +37,16 @@ Define new versions
 
 Then execute the release chain
 
-    $ mvn org.codehaus.mojo:versions-maven-plugin:2.0:set -DgenerateBackupPoms=false -DnewVersion=$NEXT_VERSION
+    $ mvn org.codehaus.mojo:versions-maven-plugin:2.8.1:set -DgenerateBackupPoms=false -DnewVersion=$NEXT_VERSION
     $ git commit -a -m "pushes to release version $NEXT_VERSION"
+    $ git tag -a v$NEXT_VERSION -m "`curl -s http://whatthecommit.com/index.txt`"
     $ mvn -P release
     
-Wait for the release to be accepted. Then increment to next development version:
+Then, increment to next development version:
     
-    $ git tag -a v$NEXT_VERSION -m "`curl -s http://whatthecommit.com/index.txt`"
-    $ mvn org.codehaus.mojo:versions-maven-plugin:2.0:set -DgenerateBackupPoms=false -DnewVersion=$NEXT_DEVELOPMENT_VERSION
+    $ mvn org.codehaus.mojo:versions-maven-plugin:2.8.1:set -DgenerateBackupPoms=false -DnewVersion=$NEXT_DEVELOPMENT_VERSION
     $ git commit -a -m "pushes to development version $NEXT_DEVELOPMENT_VERSION"
     $ git push origin tag v$NEXT_VERSION && git push origin
-
-Some link regarding Maven central deployment:
-
-* http://central.sonatype.org/pages/ossrh-guide.html
-* http://central.sonatype.org/pages/apache-maven.html
-* http://central.sonatype.org/pages/working-with-pgp-signatures.html#generating-a-key-pair
-* http://maven.apache.org/guides/mini/guide-encryption.html
-* http://central.sonatype.org/pages/releasing-the-deployment.html
-* https://oss.sonatype.org/#stagingRepositories
 
 ## License
 
