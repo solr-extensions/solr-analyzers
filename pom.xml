@@ -59,7 +59,7 @@
         <guava.version>14.0.1</guava.version>
         <junit.version>4.13</junit.version>
         <mockito.version>3.5.13</mockito.version>
-        <solr.version>7.4.0</solr.version>
+        <solr.version>8.6.2</solr.version>
         <spring.version>5.2.9.RELEASE</spring.version>
     </properties>
 
