@@ -58,7 +58,7 @@
         <!-- Due to solr guava currently has to stick at 14.x -->
         <guava.version>14.0.1</guava.version>
         <junit.version>4.13.2</junit.version>
-        <mockito.version>3.6.28</mockito.version>
+        <mockito.version>3.7.7</mockito.version>
         <solr.version>7.4.0</solr.version>
         <spring.version>5.3.3</spring.version>
     </properties>
