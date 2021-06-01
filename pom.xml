@@ -59,7 +59,7 @@
         <guava.version>14.0.1</guava.version>
         <junit.version>4.13.2</junit.version>
         <mockito.version>3.9.0</mockito.version>
-        <solr.version>7.4.0</solr.version>
+        <solr.version>7.7.3</solr.version>
         <spring.version>5.3.5</spring.version>
     </properties>
 
@@ -215,34 +215,6 @@
                                 </goals>
                             </execution>
                         </executions>
-                    </plugin>
-                    <plugin>
-                        <groupId>de.jutzig</groupId>
-                        <artifactId>github-release-plugin</artifactId>
-                        <version>1.4.0</version>
-                        <executions>
-                            <execution>
-                                <id>upload-artifacts-2-github</id>
-                                <phase>deploy</phase>
-                                <goals>
-                                    <goal>release</goal>
-                                </goals>
-                            </execution>
-                        </executions>
-                        <configuration>
-                            <description>Release version ${project.version}</description>
-                            <releaseName>${project.version}</releaseName>
-                            <tag>${project.version}</tag>
-                            <fileSets>
-                                <fileSet>
-                                    <directory>${project.build.directory}</directory>
-                                    <includes>
-                                        <include>${project.artifactId}*.jar</include>
-                                        <include>${project.artifactId}*.jar.asc</include>
-                                    </includes>
-                                </fileSet>
-                            </fileSets>
-                        </configuration>
                     </plugin>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
